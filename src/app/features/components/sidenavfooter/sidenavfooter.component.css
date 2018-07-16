@@ -1,0 +1,22 @@
+#sidenavfooter {
+    position: relative;
+    width: 100%; height: 8em; padding-left: 1em;
+    background-image: url(/assets/images/nav/footer-background/v0.jpg);
+    background-size: auto 16em;
+    background-repeat: repeat-x;
+    text-align: bottom;
+}
+#creator {
+    font-size: 0.8em;
+}
+#sherweb-logo {
+    max-width: 80%; height: 3em;
+    background-image: url(/assets/images/nav/sherweb-logo/v0.svg);
+    background-size: auto 3em;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+#sherweb-slogan {
+    width: 100%; font-size: 0.8em;
+}
+

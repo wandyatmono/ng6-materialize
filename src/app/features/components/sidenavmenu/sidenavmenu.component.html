@@ -1,0 +1,462 @@
+<mz-collapsible [mode]="'expandable'">
+  <mz-collapsible-item>
+    <mz-collapsible-item-header>
+      CSS
+    </mz-collapsible-item-header>
+    <mz-collapsible-item-body>
+        <a mz-button 
+          class="fullwidth grey darken-4 white-text btn-flat"
+          (mouseup)="onCSS(0, $event)"> 
+          <i mz-icon 
+            class="grey-text"
+            [align]="'left'"
+            [icon]="'colorize'"
+            [size]="'medium'">
+          </i>
+          Color
+        </a>
+        <a mz-button 
+          class="fullwidth grey darken-4 white-text btn-flat"
+          (mouseup)="onCSS(1, $event)"> 
+          <i mz-icon 
+            class="grey-text"
+            [align]="'left'"
+            [icon]="'border_clear'"
+            [size]="'medium'">
+          </i>
+          Grid
+        </a>
+        <a mz-button 
+          class="fullwidth grey darken-4 white-text btn-flat"
+          (mouseup)="onCSS(2, $event)"> 
+          <i mz-icon 
+            class="grey-text"
+            [align]="'left'"
+            [icon]="'aspect_ratio'"
+            [size]="'medium'">
+          </i>
+          Helpers
+        </a>
+        <a mz-button 
+          class="fullwidth grey darken-4 white-text btn-flat"
+          (mouseup)="onCSS(3, $event)"> 
+          <i mz-icon 
+            class="grey-text"
+            [align]="'left'"
+            [icon]="'burst_mode'"
+            [size]="'medium'">
+          </i>
+          Media
+        </a>
+        <a mz-button 
+          class="fullwidth grey darken-4 white-text btn-flat"
+          (mouseup)="onCSS(4, $event)"> 
+          <i mz-icon 
+            class="grey-text"
+            [align]="'left'"
+            [icon]="'leak_add'"
+            [size]="'medium'">
+          </i>
+          Pulse
+        </a>
+        <a mz-button 
+          class="fullwidth grey darken-4 white-text btn-flat"
+          (mouseup)="onCSS(5, $event)"> 
+          <div id="sass-icon">
+          Sass
+          </div>
+        </a>
+        <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onCSS(6, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'collections'"
+          [size]="'medium'">
+        </i>
+        Shadow
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onCSS(7, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'border_all'"
+          [size]="'medium'">
+        </i>
+        Table
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onCSS(8, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'compare_arrows'"
+          [size]="'medium'">
+        </i>
+        Transitions
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onCSS(9, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'spellcheck'"
+          [size]="'medium'">
+        </i>
+        Typhography
+      </a>
+    </mz-collapsible-item-body>
+  </mz-collapsible-item>
+  <mz-collapsible-item>
+    <mz-collapsible-item-header>
+      Form Controls 
+    </mz-collapsible-item-header>
+    <mz-collapsible-item-body>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onForm(0, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'crop_16_9'"
+          [size]="'medium'">
+        </i>
+        Button
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onForm(1, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'check_box'"
+          [size]="'medium'">
+        </i>
+        Checkbox
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onForm(2, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'local_offer'"
+          [size]="'medium'">
+        </i>
+        Chip
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onForm(3, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'event_available'"
+          [size]="'medium'">
+        </i>
+        Datepicker
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onForm(4, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'assignment_turned_in'"
+          [size]="'medium'">
+        </i>
+        Form Validation
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onForm(5, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'assignment_turned_in'"
+          [size]="'medium'">
+        </i>
+        Input
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onForm(6, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'radio_button_checked'"
+          [size]="'medium'">
+        </i>
+        Radio Button
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onForm(7, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'change_history'"
+          [size]="'medium'">
+        </i>
+        Select
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onForm(8, $event)"> 
+        <div id="switch-icon">
+        Switch
+        </div>
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onForm(9, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'tab_unselected'"
+          [size]="'medium'">
+        </i>
+        Text Area
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onForm(10, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'access_alarms'"
+          [size]="'medium'">
+        </i>
+        Timepicker
+      </a>
+    </mz-collapsible-item-body>
+  </mz-collapsible-item>
+  <mz-collapsible-item>
+    <mz-collapsible-item-header>
+      Layout
+    </mz-collapsible-item-header>
+    <mz-collapsible-item-body>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onLayout(0, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'style'"
+          [size]="'medium'">
+        </i>
+        Card
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onLayout(1, $event)"> 
+        <div id="collapsible-icon">
+        Collapsible
+        </div>
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onLayout(2, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'dehaze'"
+          [size]="'medium'">
+        </i>
+        Collection
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onLayout(3, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'more_vert'"
+          [size]="'medium'">
+        </i>
+        Dropdown
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onLayout(4, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'library_books'"
+          [size]="'medium'">
+        </i>
+        Modal
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onLayout(5, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'linear_scale'"
+          [size]="'medium'">
+        </i>
+        Navbar
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onLayout(6, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'import_contacts'"
+          [size]="'medium'">
+        </i>
+        Pagination
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onLayout(7, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'burst_mode'"
+          [size]="'medium'">
+        </i>
+        Paralax
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onLayout(8, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'left'"
+          [icon]="'image'"
+          [size]="'medium'">
+        </i>
+        Sidenav
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onLayout(9, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'burst_mode'"
+          [icon]="'power_input'"
+          [size]="'medium'">
+        </i>
+        Tab
+      </a>
+    </mz-collapsible-item-body>
+  </mz-collapsible-item>
+  <mz-collapsible-item>
+    <mz-collapsible-item-header>
+      Loading
+    </mz-collapsible-item-header>
+    <mz-collapsible-item-body>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onLoading(0, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'burst_mode'"
+          [icon]="'hourglass_empty'"
+          [size]="'medium'">
+        </i>
+        Progress
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onLoading(1, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'burst_mode'"
+          [icon]="'refresh'"
+          [size]="'medium'">
+        </i>
+        Spinner
+      </a>
+    </mz-collapsible-item-body>
+  </mz-collapsible-item>
+  <mz-collapsible-item>
+    <mz-collapsible-item-header>
+      Indicators
+    </mz-collapsible-item-header>
+    <mz-collapsible-item-body>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onIndicators(0, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'burst_mode'"
+          [icon]="'filter_9'"
+          [size]="'medium'">
+        </i>
+        Badge
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onIndicators(1, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'burst_mode'"
+          [icon]="'looks'"
+          [size]="'medium'">
+        </i>
+        Feature Discovery
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onIndicators(2, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'burst_mode'"
+          [icon]="'adb'"
+          [size]="'medium'">
+        </i>
+        Icon
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onIndicators(3, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'burst_mode'"
+          [icon]="'filter_frames'"
+          [size]="'medium'">
+        </i>
+        Toast
+      </a>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onIndicators(4, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'burst_mode'"
+          [icon]="'assistant'"
+          [size]="'medium'">
+        </i>
+        Tooltip
+      </a>
+    </mz-collapsible-item-body>
+  </mz-collapsible-item>
+  <mz-collapsible-item>
+    <mz-collapsible-item-header>
+      Service
+    </mz-collapsible-item-header>
+    <mz-collapsible-item-body>
+      <a mz-button 
+        class="fullwidth grey darken-4 white-text btn-flat"
+        (mouseup)="onService(0, $event)"> 
+        <i mz-icon 
+          class="grey-text"
+          [align]="'burst_mode'"
+          [icon]="'ondemand_video'"
+          [size]="'medium'">
+        </i>
+        Media
+      </a>
+    </mz-collapsible-item-body>
+  </mz-collapsible-item>
+  <app-sidenavfooter></app-sidenavfooter>
+</mz-collapsible>

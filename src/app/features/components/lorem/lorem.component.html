@@ -1,0 +1,6 @@
+<p *ngFor="let pada of seratKalatidha let i=index">
+  <span *ngFor="let gatra of pada let j=index">
+      {{gatra}}<br *ngIf="j < pada.length - 1"/>
+  </span>
+  <span>({{i+1}}).</span><br />
+</p>

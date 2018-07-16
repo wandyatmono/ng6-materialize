@@ -1,0 +1,28 @@
+.fullwidth {
+    width: 100%;
+    text-align: left;
+}
+#sass-icon {
+    width: 100%; height: 24px;
+    padding-left: 2.4rem;
+    background-image: url(/assets/images/nav/icons/css/sass/v0.svg);
+    background-size: 1.2em 1.2em;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+#switch-icon {
+    width: 100%; height: 24px;
+    padding-left: 2.4rem;
+    background-image: url(/assets/images/nav/icons/form/switch/v0.svg);
+    background-size: 1.2em 1.2em;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+#collapsible-icon {
+    width: 100%; height: 24px;
+    padding-left: 2.4rem;
+    background-image: url(/assets/images/nav/icons/layout/collapsible/v0.svg);
+    background-size: 1.2em 1.2em;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}

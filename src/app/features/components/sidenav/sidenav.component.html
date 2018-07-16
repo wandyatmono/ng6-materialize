@@ -1,0 +1,26 @@
+<div id="sidenav"
+  [style.left.px]="x"
+  (window:resize)="onResize()"
+  (window:keyup)="onKeyUp($event)"
+>
+  <div id="dish-container">
+    <div id="dish-wrapper"
+      [style.right.px]="-scrollbarWidth"
+    >
+      <div id="dish-servant" class="grey darken-3 grey-text text-lighten-3">
+        <app-sidenavheader></app-sidenavheader>
+        <app-sidenavmenu></app-sidenavmenu>
+      </div>
+    </div>
+  </div>
+  <div id="flap"
+    (mousedown)="onTouchstart($event)"
+    (mouseup)="onTouchend($event)"
+    (panstart)="onPanStart($event)"
+    (panleft)="onPanMove($event)"
+    (panright)="onPanMove($event)"
+    (panend)="onPanEnd($event)"
+  >
+    <div id="stripes"></div>
+  </div>
+</div>
